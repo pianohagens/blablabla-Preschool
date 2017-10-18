@@ -7,3 +7,49 @@ Template: stiff
 */
 
 @import url('../stiff/style.css');
+
+body{
+	color: #26495b;
+	font-family: 'Comic Sans MS';
+	background-color: #ff9900;
+    font-size: 16px;
+}
+
+.site-title a, .site-description {
+    color: #fff; 
+    word-break: keep-all;
+    font-size: 120%;
+}
+
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a {
+	background-color:#26495b !important;
+}
+
+.error-404 input[type="submit"], input[type="submit"], .main-navigation a:hover, .main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a, .post-readmore, .nav-previous a, .nav-next a {
+    background-color: #26495b !important;
+}
+
+.content-excerpt .post-meta a, .content-single .post-meta a {
+    color: #ff9900;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.foot-bottom {
+    background-color: #008692 !important;
+}
+img {
+    margin: 10px;
+    float: left;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comic Sans MS';
+    text-shadow: 1px 1px 1px rgba(129, 136, 146, 1);
+    padding: 10px;
+}
+a {
+    color: #008692;
+    text-decoration: none;
+}
